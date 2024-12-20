@@ -1,0 +1,49 @@
+.create-post {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .quill {
+    width: 100%;
+    border-radius: 30px;
+    .ql-toolbar {
+      border-radius: 5px 5px 0 0;
+    }
+    .ql-container {
+      min-height: 40vh;
+      border-radius: 0 0 5px 5px;
+    }
+  }
+}
+
+.edit_post_action_buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+

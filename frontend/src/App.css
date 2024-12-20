@@ -1,0 +1,28 @@
+.modal-dialog {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 1050 !important; 
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+  z-index: 1040 !important;
+}
+
+.App {
+  background-color: #fffafa;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}
+

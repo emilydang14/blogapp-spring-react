@@ -1,0 +1,13 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0 5rem;
+  .quote {
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+  }
+}

@@ -1,0 +1,86 @@
+button {
+  transition: ease-in-out 500ms;
+  outline: none;
+  color: #4c322b;
+  box-sizing: border-box;
+  border: 0;
+  font-weight: 600;
+  
+  :disabled {
+    color: #4c322b;
+    box-sizing: border-box;
+    border: 0;
+    font-weight: 600;
+  }
+  
+  :hover button:enabled {
+    background-color: #4c322b;
+    color: #fffafa;
+  }
+  
+  :active {
+    transform: translateY(15px);
+  }
+  
+  &.cursor-none {
+    cursor: none;
+  }
+
+  &.normalBtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    background-color: #c99671;
+    min-height: 50px;
+  }
+  &.ovalBtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    background-color: #c99671;
+    border-radius: 50px;
+    min-height: 50px;
+  }
+  &.roundBtn_big {
+    width: 100px;
+    height: 100px;
+    padding: 10px 15px;
+    background-color: #c99671;
+    border-radius: 100%;
+    min-height: 50px;
+  }
+  &.roundBtn_small {
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    padding: 10px 15px;
+    background-color: #c99671;
+    border-radius: 100%;
+    min-height: 50px;
+  }
+  &.roundBtn_small:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  &.center {
+    text-align: center;
+  }
+  &.full-width {
+    width: 100%;
+  }
+  &.no-bg {
+    background-color: #fffafa;
+    border: 1px dotted #c99671;
+    color: #c99671;
+  }
+  &.min-width80 {
+    min-width: 80px;
+  }
+  &.boder-solid {
+    border: 1px solid #c99671;
+  }
+}
+
+
+
+
